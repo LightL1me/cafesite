@@ -1,0 +1,170 @@
+[
+  {
+    "counts": {
+      "pending": 7,
+      "running": 6,
+      "visible": 7
+    },
+    "mode": "reduced-fade",
+    "overflow": false,
+    "running": [
+      {
+        "opacity": "0",
+        "tag": "H2",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "P",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "P",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "DIV",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "FIGURE",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "FIGURE",
+        "transform": "none"
+      }
+    ],
+    "scrollY": 2245.333251953125
+  },
+  {
+    "counts": {
+      "pending": 7,
+      "running": 6,
+      "visible": 7
+    },
+    "mode": "reduced-fade",
+    "overflow": false,
+    "running": [
+      {
+        "opacity": "0",
+        "tag": "H2",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "P",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "P",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "DIV",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "FIGURE",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "FIGURE",
+        "transform": "none"
+      }
+    ],
+    "scrollY": 3008
+  },
+  {
+    "counts": {
+      "pending": 7,
+      "running": 6,
+      "visible": 7
+    },
+    "mode": "reduced-fade",
+    "overflow": false,
+    "running": [
+      {
+        "opacity": "0",
+        "tag": "H2",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "P",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "P",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "DIV",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "FIGURE",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "FIGURE",
+        "transform": "none"
+      }
+    ],
+    "scrollY": 3770.666748046875
+  },
+  {
+    "counts": {
+      "pending": 7,
+      "running": 6,
+      "visible": 7
+    },
+    "mode": "reduced-fade",
+    "overflow": false,
+    "running": [
+      {
+        "opacity": "0",
+        "tag": "H2",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "P",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "P",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "DIV",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "FIGURE",
+        "transform": "none"
+      },
+      {
+        "opacity": "0",
+        "tag": "FIGURE",
+        "transform": "none"
+      }
+    ],
+    "scrollY": 3848
+  }
+]

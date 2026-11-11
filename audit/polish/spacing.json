@@ -1,0 +1,178 @@
+[
+  {
+    "actionGap": {
+      "horizontal": -280,
+      "vertical": 16
+    },
+    "overlaps": [],
+    "page": "/",
+    "scrollWidth": 320,
+    "textOverflow": [],
+    "width": 320
+  },
+  {
+    "actionGap": {
+      "horizontal": -326.66668701171875,
+      "vertical": 16.00006103515625
+    },
+    "overlaps": [],
+    "page": "/",
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "actionGap": {
+      "horizontal": -416.6666870117187,
+      "vertical": 16.00006103515625
+    },
+    "overlaps": [],
+    "page": "/",
+    "scrollWidth": 465,
+    "textOverflow": [],
+    "width": 480
+  },
+  {
+    "actionGap": {
+      "horizontal": -704.6666870117188,
+      "vertical": 16
+    },
+    "overlaps": [],
+    "page": "/",
+    "scrollWidth": 753,
+    "textOverflow": [],
+    "width": 768
+  },
+  {
+    "actionGap": {
+      "horizontal": -281.54168701171875,
+      "vertical": 18
+    },
+    "overlaps": [],
+    "page": "/",
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820
+  },
+  {
+    "actionGap": {
+      "horizontal": -281.54168701171875,
+      "vertical": 18
+    },
+    "overlaps": [],
+    "page": "/",
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "actionGap": {
+      "horizontal": 27.99993896484375,
+      "vertical": -50
+    },
+    "overlaps": [],
+    "page": "/",
+    "scrollWidth": 1359,
+    "textOverflow": [],
+    "width": 1374
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 320,
+    "textOverflow": [],
+    "width": 320,
+    "state": "menu"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 375,
+    "textOverflow": [],
+    "width": 390,
+    "state": "menu"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 465,
+    "textOverflow": [],
+    "width": 480,
+    "state": "menu"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 753,
+    "textOverflow": [],
+    "width": 768,
+    "state": "menu"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 805,
+    "textOverflow": [],
+    "width": 820,
+    "state": "menu"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 1009,
+    "textOverflow": [],
+    "width": 1024,
+    "state": "menu"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 1359,
+    "textOverflow": [],
+    "width": 1374,
+    "state": "menu"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 320,
+    "textOverflow": [],
+    "width": 320,
+    "state": "booking-open"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 390,
+    "textOverflow": [],
+    "width": 390,
+    "state": "booking-open"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 768,
+    "textOverflow": [],
+    "width": 768,
+    "state": "booking-open"
+  },
+  {
+    "actionGap": null,
+    "overlaps": [],
+    "page": "/menu",
+    "scrollWidth": 1374,
+    "textOverflow": [],
+    "width": 1374,
+    "state": "booking-open"
+  }
+]

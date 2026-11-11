@@ -1,0 +1,221 @@
+/* A shared spacing rhythm; no extra content or sections. */
+:root {
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --section-space: clamp(64px, 7vw, 112px);
+  --ease-out: cubic-bezier(.2,.7,.2,1);
+}
+
+/* Separate actions are separate hit targets, including after a result. */
+.pickup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 28px;
+  align-items: center;
+  margin-top: 32px;
+}
+.pickup-actions > .button { min-height: 56px; }
+.pickup-actions > .order-edit { margin: 0; min-height: 48px; padding: 12px 4px; }
+.pickup-actions--result > .button { flex-basis: 100%; max-width: 320px; }
+.pickup-actions--result > .order-edit { margin-right: 8px; }
+html:has(.cart-shortcut) { scroll-padding-bottom: 110px; }
+body:has(.cart-shortcut) :is(.add-dish,.quantity,.catalog-checkout,.pickup-actions,.form-submit,summary) { scroll-margin-bottom: 110px; }
+.order-total { margin: 32px 0 0; padding-top: 4px; }
+.pickup-note { margin-top: 36px; padding-top: 24px; }
+.pickup-form { margin-top: 36px; padding-top: 36px; }
+.pickup-form > h4 { margin-bottom: 24px; }
+.pickup-result > ul { margin: 24px 0; }
+.pickup-result .demo-result { margin-top: 28px; margin-bottom: 0; }
+.pickup-result .order-comment { margin-top: 24px; }
+.pickup-result .pickup-date { line-height: 1.6; }
+.cart-items > li { padding-block: 24px; }
+.cart-item-title { gap: 24px; }
+.cart-items .quantity { margin-top: 20px; }
+.quantity { overflow: clip; }
+.quantity output { border-inline: 1px solid var(--line); padding-inline: 12px; min-width: 46px; }
+.quantity button { padding-inline: 16px; font-size: 13px; }
+
+/* Section proportions vary, but the typography and palette stay coherent. */
+.menu-section { padding-block: 64px 64px; }
+.menu-feature { gap: clamp(32px, 4.5vw, 72px); align-items: start; }
+.menu-teaser h2 { margin-bottom: 28px; }
+.dish--compact { padding-block: 20px 26px; }
+.dish--compact:first-of-type { padding-top: 12px; }
+.menu-open { margin-top: 14px; min-height: 44px; padding-block: 12px; }
+.demo-caption { margin-top: 30px; }
+.pickup-section { padding-block: var(--section-space); column-gap: clamp(48px, 6vw, 96px); align-items: start; }
+.pickup-order { padding-left: clamp(28px, 3.5vw, 56px); }
+.pickup-order > h3 { margin-bottom: 36px; }
+.pickup-intro h2 { margin-block: 26px; }
+.pickup-intro img { margin-top: 40px; }
+.about-section { padding-block: var(--section-space); }
+.about-layout { margin-top: 32px; gap: clamp(48px, 7vw, 112px); }
+.about-layout p { line-height: 1.85; }
+.about-layout p + p { margin-top: 28px; }
+.gallery-section { padding-block: var(--section-space); }
+.gallery-layout { margin-top: 48px; gap: 40px; }
+.gallery-layout > figure:nth-child(2) { padding-top: 112px; }
+.gallery-layout figcaption { margin-top: 18px; }
+.gallery-section > .image-note { margin-top: 26px; }
+.questions-section { padding-block: var(--section-space); gap: clamp(48px, 6vw, 96px); }
+.questions-section h2 { margin-top: 26px; }
+.questions-list details { padding-block: 22px; }
+.questions-list summary { padding-block: 12px; padding-right: 12px; }
+.questions-list details > p { margin: 16px 0 18px; max-width: 62ch; }
+.visit-section { padding-block: var(--section-space); gap: clamp(48px, 7vw, 112px); }
+.visit-intro > p { margin-top: 28px; }
+.visit-intro > .button { margin-top: 36px; }
+.visit-info h3 { margin-bottom: 24px; }
+.visit-info h3:not(:first-child) { margin-top: 40px; }
+.hours > div { padding-block: 16px; gap: 30px; }
+.site-footer { padding-block: 38px; gap: 40px; }
+
+/* Print-like menu spacing rather than a stack of cards. */
+.menu-page { padding-block: 48px 80px; }
+.menu-page .catalog { padding-top: 52px; }
+.menu-heading { align-items: center; gap: 64px; }
+.menu-heading > p { line-height: 1.8; }
+.catalog-tools { margin-top: 40px; gap: 48px; }
+.search-label { gap: 14px; font-size: 13px; }
+.search-label input { height: 54px; padding-inline: 16px; }
+.menu-categories { margin-top: 36px; gap: 36px; }
+.menu-categories button { min-height: 56px; padding-block: 16px; }
+.catalog-status { margin-block: 24px 8px; }
+.catalog-list { column-gap: clamp(40px, 5vw, 80px); }
+.catalog-dish { padding-block: 32px 36px; }
+.catalog-dish .dish-heading { gap: 28px; }
+.catalog-dish > p { margin-top: 12px; line-height: 1.75; }
+.catalog-dish .dish-details { margin-top: 20px; gap: 24px; line-height: 1.8; }
+.catalog-dish .add-dish, .catalog-dish > .quantity { margin-top: 26px; }
+.dish-expanded { margin-top: 20px; }
+.dish-expanded img { margin-bottom: 20px; }
+.allergen-note { margin-top: 30px; line-height: 1.8; }
+.catalog-checkout { margin-top: 40px; }
+
+/* Comfortable reading and fields in both existing forms. */
+.booking-body { padding: 40px 48px 48px; }
+.dialog-close { margin-bottom: 24px; min-height: 44px; padding: 10px 4px; }
+.booking-body .eyebrow { margin-bottom: 20px; line-height: 1.6; }
+.booking-intro { margin-block: 24px 30px; line-height: 1.8; }
+form label { margin-top: 24px; gap: 12px; font-size: 13px; line-height: 1.5; }
+.form-grid { gap: 24px; }
+.form-grid label { margin-top: 0; }
+input, select { min-height: 52px; padding: 12px 14px; }
+textarea { min-height: 100px; padding: 14px; line-height: 1.7; }
+.field-note { margin-top: 12px; line-height: 1.75; }
+.form-submit { margin-top: 32px; min-height: 56px; }
+.form-error { margin-top: 24px; padding-left: 16px; }
+.booking-result dl { margin-block: 30px; }
+.booking-result dl > div { padding-block: 16px; gap: 28px; }
+.booking-result dd { text-align: right; overflow-wrap: anywhere; }
+.booking-result .demo-result { margin-bottom: 32px; }
+.gallery-dialog { padding: 28px; }
+.gallery-dialog > .text-button { min-height: 44px; margin-bottom: 24px; }
+.gallery-controls { gap: 28px; margin-top: 24px; }
+.gallery-caption { margin-top: 18px; }
+.gallery-dialog > img { aspect-ratio: 3 / 2; object-fit: contain; }
+
+/* Small interactions respond to touch and keyboard as well as hover. */
+.button, .add-dish, .quantity button, .text-button, .navigation a, input, select, textarea {
+  transition: transform 180ms var(--ease-out), color 180ms, background-color 180ms, border-color 180ms, box-shadow 180ms;
+}
+.button:active, .add-dish:active { transform: translateY(1px); }
+.button:focus-visible, .add-dish:focus-visible, .text-button:focus-visible { outline-width: 2px; outline-offset: 6px; }
+input:focus, select:focus, textarea:focus { border-color: var(--ink); background-color: #fff9f0; box-shadow: 0 0 0 3px rgb(97 29 39 / 7%); }
+.gallery-image { overflow: hidden; }
+.gallery-image img { transition: transform 700ms var(--ease-out), opacity 400ms; }
+.questions-list summary { transition: color 180ms; }
+.questions-list details[open] > p, .dish-expanded, .pickup-form, .pickup-result, .booking-result { animation: content-arrive 340ms var(--ease-out); }
+.catalog-list { animation: content-arrive 260ms var(--ease-out); }
+.booking-dialog[open], .gallery-dialog[open] { animation: dialog-arrive 300ms var(--ease-out); }
+.booking-dialog[open]::backdrop, .gallery-dialog[open]::backdrop { animation: backdrop-arrive 250ms ease-out; }
+.gallery-dialog > img { animation: image-arrive 360ms ease-out; }
+.cart-shortcut { animation: content-arrive 300ms var(--ease-out); transition: transform 180ms var(--ease-out), background-color 180ms; }
+.navigation.is-open { animation: content-arrive 220ms var(--ease-out); }
+.hero-copy h1 { animation: hero-arrive 800ms var(--ease-out) both; }
+.hero-copy > p { animation: hero-arrive 800ms 90ms var(--ease-out) both; }
+.hero-button { animation: hero-arrive 800ms 150ms var(--ease-out) backwards; }
+.hero-image { animation: image-arrive 1000ms ease-out; }
+@media (hover: hover) and (pointer: fine) {
+  .button:hover, .add-dish:hover { transform: translateY(-2px); box-shadow: 0 5px 14px rgb(65 20 28 / 10%); }
+  .button:active, .add-dish:active { transform: translateY(0); box-shadow: none; }
+  .gallery-image:hover img, .gallery-image:focus-visible img { transform: scale(1.035); }
+  .text-button:hover { opacity: 1; color: #8e3c42; }
+}
+@keyframes hero-arrive { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes content-arrive { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes dialog-arrive { from { opacity: 0; transform: translateY(14px) scale(.985); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes backdrop-arrive { from { opacity: 0; } to { opacity: 1; } }
+@keyframes image-arrive { from { opacity: .45; } to { opacity: 1; } }
+
+@media (max-width: 1180px) {
+  .catalog-list { column-gap: 40px; }
+  .menu-heading { gap: 36px; }
+  .pickup-actions { gap: 18px 24px; }
+}
+@media (max-width: 780px) {
+  :root { --section-space: 52px; }
+  .site-header { column-gap: 16px; }
+  .menu-section { padding-block: 42px; }
+  .menu-feature { gap: 0; }
+  .menu-teaser h2 { margin-bottom: 26px; }
+  .dish--compact { padding-block: 22px 24px; }
+  .dish--compact:first-of-type { padding-top: 0; }
+  .dish--compact .dish-heading { gap: 20px; }
+  .dish--compact > p { margin-top: 8px; }
+  .menu-open { margin-top: 14px; }
+  .demo-caption { margin-top: 24px; }
+  .pickup-section { gap: 36px; }
+  .pickup-order { padding: 32px 0 0; }
+  .pickup-order > h3 { margin-bottom: 28px; }
+  .pickup-intro h2 { margin-block: 24px; }
+  .pickup-intro img { margin-top: 32px; }
+  .pickup-actions { flex-direction: column; align-items: stretch; gap: 16px; margin-top: 28px; }
+  .pickup-actions > .button { width: 100%; max-width: none; min-height: 56px; font-size: 12px; letter-spacing: 1.5px; }
+  .pickup-actions > .order-edit { align-self: flex-start; margin: 0; padding-inline: 4px; }
+  .pickup-actions--result > .button { flex-basis: auto; }
+  .cart-item-title { gap: 20px; }
+  .pickup-note { margin-top: 32px; }
+  .pickup-form { margin-top: 32px; padding-top: 32px; }
+  .about-layout { margin-top: 26px; gap: 28px; }
+  .about-layout p + p { margin-top: 24px; }
+  .gallery-layout { gap: 32px; margin-top: 32px; }
+  .gallery-layout > figure:nth-child(2) { padding-top: 0; }
+  .questions-section { gap: 28px; }
+  .questions-list details { padding-block: 20px; }
+  .questions-list summary { line-height: 1.7; }
+  .visit-section { gap: 40px; }
+  .hours > div { gap: 20px; padding-block: 14px; }
+  .site-footer { gap: 24px; padding-block: 32px; }
+  .menu-page { padding-block: 32px 52px; }
+  .menu-page .catalog { padding-top: 40px; }
+  .menu-heading > p { margin-top: 24px; }
+  .catalog-tools { margin-top: 32px; }
+  .vegetarian-filter { margin-top: 20px; }
+  .catalog .menu-categories { column-gap: 22px; row-gap: 0; margin-top: 26px; }
+  .catalog-status { margin-block: 22px 4px; gap: 18px; }
+  .catalog-dish { padding-block: 28px 32px; }
+  .catalog-dish .dish-heading { gap: 20px; }
+  .catalog-dish .dish-details { gap: 20px; }
+  .booking-body { padding: 24px 24px 32px; }
+  .booking-body .eyebrow { margin-bottom: 16px; }
+  .booking-intro { margin-block: 24px; }
+  .form-grid { gap: 16px; }
+  form label { margin-top: 24px; font-size: 12px; }
+  input, select, textarea { font-size: 16px; }
+  .gallery-dialog { padding: 18px; }
+  .gallery-controls { gap: 12px 16px; margin-top: 20px; }
+  .booking-result dl > div { gap: 20px; }
+}
+@media (max-width: 360px) { .site-header { gap: 10px; } }
+@media (max-width: 480px) {
+  .booking-body .form-grid, .pickup-form .form-grid { grid-template-columns: 1fr; gap: 24px; }
+  .booking-dialog .dialog-close { position: sticky; top: 0; z-index: 1; background: var(--paper); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .gallery-image img { transform: none !important; }
+}
